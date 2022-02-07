@@ -1,7 +1,28 @@
 .wrapper {
     display: grid;
-    border: 2px solid lightcoral;
-    border-radius: 5px;
-    grid-template-columns: 100px 100px 100px 1fr 1fr;
+    width: 1500px;
 
+    grid-template-columns: 10fr 2fr;
+    grid-template-rows: 100px 500px 100px;
+
+    grid-template-areas: 
+    "h h"
+    "c s"
+    "f f";
+}
+
+header {
+    grid-area: h;
+}
+
+content {
+    grid-area: c;
+}
+
+sidebar {
+    grid-area: s;
+}
+
+footer {
+    grid-area: f;
 }
