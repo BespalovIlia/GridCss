@@ -1,0 +1,7 @@
+.wrapper {
+    display: grid;
+    border: 2px solid lightcoral;
+    border-radius: 5px;
+    grid-template-columns: 100px 100px 100px 1fr 1fr;
+
+}
